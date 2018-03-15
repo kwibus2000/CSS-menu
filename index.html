@@ -8,17 +8,19 @@
   <title>Simpel menu, alleen CSS</title>
 </head>
 <body>
-  <div class="logo">
-    <img src="logo_KKZ_groot--transparant.png" alt="logo">
+  <div class="menu-bg">
+    <div class="logo">
+      <img src="logo_KKZ_groot--transparant.png" alt="logo">
+    </div>
+    <label for="show-menu" class="show-menu">Klik voor menu</label>
+    <input type="checkbox" id="show-menu" role="button">
+    <ul id="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Informatie</a></li>
+      <li><a href="#">Repertoire</a></li>
+      <li><a href="#">Foto's</a></li>
+      <li><a href="#">Historie</a></li>
+    </ul>
   </div>
-  <label for="show-menu" class="show-menu">Klik voor menu</label>
-  <input type="checkbox" id="show-menu" role="button">
-  <ul id="menu">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Informatie</a></li>
-    <li><a href="#">Repertoire</a></li>
-    <li><a href="#">Foto's</a></li>
-    <li><a href="#">Historie</a></li>
-  </ul>
 </body>
 </html>
